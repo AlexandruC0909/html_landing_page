@@ -1,1 +1,1 @@
-# html_langin_page
+HTML and CSS(no javascript) slider with buttons
