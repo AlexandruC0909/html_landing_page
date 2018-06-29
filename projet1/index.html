@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>WebAgency : L'Agence de tous vos projets web réussis!</title>
+    <meta name="description" content="Conception de sites web de qualité en HTML, CSS, JavaScript, grâce aux standards W3C, accessibilité">
+    <meta name="keywords" content="html5, css3, standards, web, internet, création, php, javascript, design" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta name="twitter:site" content="@WebAgency">
+    <meta name="twitter:card" content="summary">
+    <meta name="og:locale" content="fr_FR">
+    <meta name="og:site_name" content="WebAgency">
+    <link rel="icon" href="images/ico/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="57x57" href="images/ico/apple-touch-icon-57-precomposed.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+</head>
+
+<body>
+
+    <!-- Logo + Navbar -->
+
+    <header class="top">
+        <div class="logo"><img src="images/logo.png" alt="logo web design"></div>
+        <div class="nav">
+            <label for="toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+                <i class="fa fa-circle dot-dropdown" aria-hidden="true"></i>
+            </label>
+            <input type="checkbox" id="toggle">
+            <ul class="navbar">
+                <li><a class="accueil" href="">Accueil</a></li>
+                <li><a class="accueil" href="#services">Services</a></li>
+                <li><a class="accueil" href="#project">Portofolio</a></li>
+                <li><a class="accueil" href="#contact">Contact</a></li>
+            </ul>
+            <div style="clear: both"></div>
+        </div>
+    </header>
+
+    <!-- Slider -->
+
+    <section class="container">
+        <div class="text-slider">
+            <h1><span>webagency</span> : L'Agence de tous <br>vos projets!</h1>
+            <p>Vous avez un projet web? La WevAgency vous aide à le réaliser!</p>
+            <a href="#services" class="btn">Plus d'Infos</a>
+        </div>
+        <input type="radio" id="i1" name="images" checked />
+        <input type="radio" id="i2" name="images" />
+        <div class="slide_img" id="one">
+            <img src="images/bg1.jpg" alt="petite fille aux mains peintes">
+            <div class="border-image1"></div>
+            <div class="border-image2"></div>
+            <label class="prev" for="i2"><span class="arrow-left"></span></label>
+            <label class="next" for="i2"><span class="arrow-right"></span></label>
+        </div>
+        <div class="slide_img" id="two">
+            <div class="border-image1"></div>
+            <div class="border-image2"></div>
+            <img src="images/bg2.jpg" alt="garçon avec mégaphone">
+            <label class="prev" for="i1"><span class="arrow-left"></span></label>
+            <label class="next" for="i1"><span class="arrow-right"></span></label>
+        </div>
+        <img class="height-img" src="images/bg1.jpg" alt="petite fille aux mains peintes">
+    </section>
+
+    <!-- Premier title "Nos Service" -->
+
+    <section class="services" id="services">
+        <h2>Nos services</h2>
+        <div class="blue-dot">
+            <div class="fa fa-circle fa" aria-hidden="true"></div>
+            <div class="line"></div>
+        </div>
+        <p class="description">Grâce à notre approche orientée client, nous pouvons vous aider à concevoir, développer et lancer un site web, réactif et sécurisé. Nous offrons des sites Web sur mesure - où vous n'avez pas à vous soucier de l'hébergement ou de quoi que ce soit de technique.</p>
+    </section>
+
+    <!-- Section avec l'image apple et liste des services -->
+
+    <div class="design">
+        <div class="apple">
+            <img src="images/main-feature.png" alt="apple imac">
+        </div>
+        <div class="services-list">
+            <ul>
+                <li>
+                    <div class="icon">
+                        <i class="fas fa-chart-line fa-2x"></i>
+                        <i class="fas fa-circle"></i>
+                    </div>
+                    <p><span>UI Design</span>
+                        <br>Nous utilisons une variété d'outils analytiques, y compris le <strong> mappage thermique et les tests A/B</strong> pour déterminer la conception d'interface utilisateur la plus efficace pour votre site Web, vos e-mails et vos applications Web et mobiles.</p>
+                </li>
+                <li>
+                    <div class="icon">
+                        <i class="fas fa-cubes fa-2x"></i>
+                        <i class="fas fa-circle"></i>
+                    </div>
+                    <p><span>UX Design</span>
+                        <br>Avec une expérience de plus de 12 ans et des interventions de conception répondant aux principaux défis de nos clients, nous avons développé une manière de travailler qui est stratégique, créative et technique en même temps.</p>
+                </li>
+                <li>
+                    <div class="icon">
+                        <i class="fas fa-chart-pie fa-2x"></i>
+                        <i class="fas fa-circle"></i>
+                    </div>
+                    <p><span>SEO</span>
+                        <br>Le format HTML conforme aux normes, le contenu pertinent, les images bien étiquetées, les titres de pages uniques et pertinents ne sont que quelques étapes que nous prenons en compte pour assurer un bon <strong> référencement naturel</strong>.</p>
+                </li>
+            </ul>
+        </div>
+        <div style="clear: both"></div>
+    </div>
+    <section class="project" id="project">
+
+        <!-- Deuxieme titre "Nos Projects, meme classe que "Nos Services" -->
+
+        <div class="services">  
+            <h2 class="titlu">Nos Projects</h2>
+            <div class="blue-dot">
+                <div class="fa fa-circle" aria-hidden="true"></div>
+                <div class="line"></div>
+            </div>
+            <p class="description">Nous sommes fiers de notre travail et d'avoir participé à plus de 200 projets.Voici quelques-une de nos réalisations.</p>
+        </div>
+        <div class="navbar2">
+            <div class="navbar2-content">All Works</div>
+            <div class="navbar2-content">Créatif</div>
+            <div class="navbar2-content">Entreprise</div>
+            <div class="navbar2-content">Portofolio</div>
+        </div>
+        <div class="portofolio">
+            <figure class="img">
+                <img src="images/projects/01.jpg" alt="fond d'écran avec lunettes">
+                <figcaption>
+                    <div class="project-title">Projet 1</div>
+                    <p>Site pour un cabinet d'opticien</p>
+                    <a href="images/projects/full.jpg"><i class="fas fa-eye"></i></a>
+                </figcaption>
+            </figure>
+            <figure class="img">
+                <img src="images/projects/02.jpg" alt="dessin de lapin">
+                <figcaption>
+                    <div class="project-title">Projet 2</div>
+                    <p>Promotion d'un livre pour enfants</p>
+                    <a href="images/projects/full.jpg"><i class="fas fa-eye"></i></a>
+                </figcaption>
+            </figure>
+            <figure class="img">
+                <img src="images/projects/03.jpg" alt="Original Pompadour texte">
+                <figcaption>
+                    <div class="project-title">Projet 3</div>
+                    <p>Site pour salon de coiffure</p>
+                    <a href="images/projects/full.jpg"><i class="fas fa-eye"></i></a>
+                </figcaption>
+            </figure>
+            <figure class="img">
+                <img src="images/projects/04.jpg" alt="cahier">
+                <figcaption>
+                    <div class="project-title">Projet 4</div>
+                    <p>Blog lié à la science</p>
+                    <a href="images/projects/full.jpg"><i class="fas fa-eye"></i></a>
+                </figcaption>
+            </figure>
+            <figure class="img">
+                <img src="images/projects/05.jpg" alt="sacs cabas">
+                <figcaption>
+                    <div class="project-title">Projet 5</div>
+                    <p>Site pour l'e-commerce</p>
+                    <a href="images/projects/full.jpg"><i class="fas fa-eye"></i></a>
+                </figcaption>
+            </figure>
+            <figure class="img">
+                <img src="images/projects/06.jpg" alt="dessin de la ville asiatique">
+                <figcaption>
+                    <div class="project-title">Projet 6</div>
+                    <p>Site pour agence de voyage</p>
+                    <a href="images/projects/full.jpg"><i class="fas fa-eye"></i></a>
+                </figcaption>
+            </figure>
+            <figure class="img">
+                <img src="images/projects/07.jpg" alt="logo de fusée">
+                <figcaption>
+                    <div class="project-title">Projet 7</div>
+                    <p>Site pour une agence de marketing</p>
+                    <a href="images/projects/full.jpg"><i class="fas fa-eye"></i></a>
+                </figcaption>
+            </figure>
+            <figure class="img">
+                <img src="images/projects/08.jpg" alt="articles de bureau">
+                <figcaption>
+                    <div class="project-title">Projet 8</div>
+                    <p>Blog pour un écrivain.</p>
+                    <a href="images/projects/full.jpg"><i class="fas fa-eye"></i></a>
+                </figcaption>
+            </figure>
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+
+    <section class="contact" >
+        <div class="map">
+            <div class="mask"></div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10492.607744176832!2d2.291912281980417!3d48.89344152576042!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e1f06e2b70f%3A0x40b82c3688c9460!2sParis!5e0!3m2!1sen!2sfr!4v1515695270839" width="1900" height="800" style="border:0" allowfullscreen></iframe>
+        </div>
+        <form action="/form-action.php" class="submission" id="contact">
+            <div class="contact-info">
+                <h4>Contact Info</h4>
+                <h3>Web Agency SAS</h3> 25 Rue d'Hautville 75010 Paris
+                <br>
+                <span>Tel:</span> 01 02 03 04 05
+            </div>
+            <label for="Name"></label>
+            <input type="text" id="Name" placeholder="Nom">
+            <label for="email"></label>
+            <input type="email" id="email" placeholder="Email">
+            <label for="subject"></label>
+            <input type="text" id="subject" placeholder="Sujet">
+            <label for="message"></label>
+            <textarea name="Message" id="message" cols="30" rows="11" placeholder="Message"></textarea>
+            <input type="submit" value="Envoyer le Message" id="btn">
+        </form>
+    </section>
+</body>
+
+</html>
